@@ -1,0 +1,168 @@
+body {
+  background-color: rgba(208, 175, 247, 0.616);
+  font-family: sans-serif ;
+}
+
+.pageMain {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.pageMain_left{
+  background-image: url(../images/image-product-mobile.jpg);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+}
+.pageMain_right{
+  display: flex;
+  flex-direction: column;
+  gap:0.2em;
+  padding:  0 10% 5%;
+}
+.pageMain_right_h1 {
+  color: rgba(180, 173, 173);
+  font-size: 13px;
+  margin: 5% 0 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.pageMain_right_h2 {
+  color: black;
+  font-family:  Cambria, Cochin,  serif ;
+  margin: 2% 0;
+  font-size: 22px;
+  font-weight: 900;
+}
+.pageMain_right_comment {
+  color: rgb(100, 99, 99);
+  font-size: 12px;
+  margin: 0;
+  line-height: 1.5em;
+}
+.pageMain_right_price {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+}
+.pageMain_right_price_span {
+  color: rgba(78, 36, 117, 0.952);
+  font-family: serif, "New Century Schoolbook, TeX Gyre Schola";
+  font-size: 30px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.pageMain_right_price_line {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: rgba(73, 73, 73);
+ 
+  font-size: 12px;
+  text-decoration:line-through;
+}
+
+.pageMain_right_button {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 5px;
+  
+  color: aliceblue;
+  text-align: center;
+  align-items: center;
+  padding: 5px 0;
+  
+  background-color: rgba(78, 36, 117, 0.952);
+  border-radius: 5px;
+}
+
+.pageMain_right_logo {
+  margin: 5px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228deg, 45%, 44%);
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  bottom: 0;
+}
+.attribution-a {
+  text-decoration: none;
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media (min-width : 768px) {
+  
+.pageMain {
+  flex-direction: row;
+  gap: 2%;
+  margin: 2%;
+  border-radius: 15px;
+}
+
+.pageMain_left {
+  background-image: url("../images/image-product-desktop.jpg")
+  width: 100%;
+  margin: 0;
+
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+.pageMain_right{
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  padding:  4% 2% ;
+}
+.pageMain_right_h1 {
+  font-size: 16px;
+  margin: 8% 0 2%;
+}
+.pageMain_right_h2 {
+  margin: 2% 0;
+  font-size: 55px;
+    font-weight: 900;
+    line-height: 1em;
+}
+
+.pageMain_right_comment {
+  font-size: 20px;
+}
+
+.pageMain_right_price_span {
+  font-size: 36px;
+
+}
+.pageMain_right_price_line {
+  margin-top: 15px;
+  margin-bottom: 10px; 
+  font-size: 16px;
+}
+
+.pageMain_right_button {
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+.pageMain_right_logo {
+  width: 1.1em;
+  margin: 2px 5px;
+}
+
+.attribution {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
